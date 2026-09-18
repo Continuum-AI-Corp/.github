@@ -11,6 +11,7 @@
 [**ORCACYBER**](https://www.orcacyber.ai) ·
 [**HUGGING FACE**](https://huggingface.co/orcarouter) ·
 [**OLLAMA**](https://ollama.com/orcarouter) ·
+[**X**](https://x.com/OrcaRouter) ·
 [**DISCORD**](https://discord.com/invite/YEubt8enRA)
 
 <br>
@@ -364,6 +365,7 @@ Come build it with us.
 
 ### Community
 
+[**X / @OrcaRouter →**](https://x.com/OrcaRouter)  
 [**DISCORD →**](https://discord.com/invite/YEubt8enRA)
 
 ### Infrastructure
