@@ -1,0 +1,410 @@
+<div align="center">
+
+# CONTINUUM AI
+
+### Building Intelligence That Evolves.
+
+**Open systems for intelligence, agents, security, and AI infrastructure.**
+
+[**CONTINUUM**](https://continuum01.ai) ·
+[**ORCAROUTER**](https://www.orcarouter.ai) ·
+[**ORCACYBER**](https://www.orcacyber.ai) ·
+[**HUGGING FACE**](https://huggingface.co/orcarouter) ·
+[**OLLAMA**](https://ollama.com/orcarouter) ·
+[**DISCORD**](https://discord.com/invite/YEubt8enRA)
+
+<br>
+
+`RESEARCH` · `INFRASTRUCTURE` · `SECURITY` · `OPEN SOURCE`
+
+</div>
+
+<br>
+
+---
+
+## 01 / CONTINUUM
+
+> **Intelligence is becoming infrastructure.**
+
+Continuum AI builds open systems for **models, agents, security, observability, routing, and alignment**.
+
+We build at the layers between models and the real world:
+
+```text
+MODEL  →  ROUTE  →  AGENT  →  TOOL  →  ACTION
+  ↑                                      │
+  └────── EVALUATE ← VERIFY ← TRACE ─────┘
+```
+
+Our goal is simple:
+
+**Build intelligence that can be routed, observed, secured, reproduced, evaluated, and evolved.**
+
+---
+
+## 02 / OPEN SYSTEMS
+
+### OrcaRouter Lite
+
+**Self-hosted infrastructure for multi-model AI.**
+
+OpenAI-compatible LLM routing with BYOK, streaming, model interoperability, and a managed safety net.
+
+[**REPOSITORY →**](https://github.com/Continuum-AI-Corp/OrcaRouter-Lite)
+
+[![GitHub Stars](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaRouter-Lite?style=flat-square&label=STARS)](https://github.com/Continuum-AI-Corp/OrcaRouter-Lite/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Continuum-AI-Corp/OrcaRouter-Lite?style=flat-square&label=FORKS)](https://github.com/Continuum-AI-Corp/OrcaRouter-Lite/network/members)
+[![License](https://img.shields.io/github/license/Continuum-AI-Corp/OrcaRouter-Lite?style=flat-square&label=LICENSE)](https://github.com/Continuum-AI-Corp/OrcaRouter-Lite)
+
+<br>
+
+### OrcaReplay
+
+**Time travel for AI agents.**
+
+Record an agent run. Replay it. Fork from any checkpoint. Change the model while keeping everything else constant.
+
+Local and cloud traces speak the same format — giving agents a reproducible history across environments.
+
+[**REPOSITORY →**](https://github.com/Continuum-AI-Corp/OrcaReplay)
+
+[![GitHub Stars](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay?style=flat-square&label=STARS)](https://github.com/Continuum-AI-Corp/OrcaReplay/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Continuum-AI-Corp/OrcaReplay?style=flat-square&label=FORKS)](https://github.com/Continuum-AI-Corp/OrcaReplay/network/members)
+[![License](https://img.shields.io/github/license/Continuum-AI-Corp/OrcaReplay?style=flat-square&label=LICENSE)](https://github.com/Continuum-AI-Corp/OrcaReplay)
+
+<br>
+
+### OrcaBonsai 27B Uncensored
+
+**Change behavior. Don't change the weights.**
+
+Runtime behavioral intervention for compressed LLMs.
+
+```text
+0 WEIGHTS MODIFIED
+0 RE-QUANTIZATION
+BIT-IDENTICAL ORIGINAL MODEL PACK
+129 RESIDUAL INTERVENTION SITES
+INFERENCE-TIME CONTROL
+```
+
+Built first for Ternary Bonsai 2 27B while preserving the original compressed model.
+
+[**REPOSITORY →**](https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored)
+
+[![GitHub Stars](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored?style=flat-square&label=STARS)](https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored?style=flat-square&label=FORKS)](https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored/network/members)
+
+<br>
+
+### OrcaPromptVault
+
+**An open archive of how AI agents actually work.**
+
+A versioned, verifiable archive of real-world system prompts, developer instructions, tool schemas, and agent harnesses.
+
+Built to make agent behavior easier to study, compare, reproduce, and understand.
+
+[**REPOSITORY →**](https://github.com/Continuum-AI-Corp/OrcaPromptVault)
+
+[![GitHub Stars](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaPromptVault?style=flat-square&label=STARS)](https://github.com/Continuum-AI-Corp/OrcaPromptVault/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Continuum-AI-Corp/OrcaPromptVault?style=flat-square&label=FORKS)](https://github.com/Continuum-AI-Corp/OrcaPromptVault/network/members)
+
+<br>
+
+### Orca Code Review
+
+**AI code review with an enforcement layer.**
+
+An open multi-model code review harness for automated reviews, security analysis, severity-ranked findings, and merge gates.
+
+```text
+CODE
+  ↓
+MULTI-MODEL REVIEW
+  ↓
+P0 · P1 · P2 · P3
+  ↓
+MERGE GATE
+```
+
+[**REPOSITORY →**](https://github.com/Continuum-AI-Corp/Orca-Code-Review)
+
+[![GitHub Stars](https://img.shields.io/github/stars/Continuum-AI-Corp/Orca-Code-Review?style=flat-square&label=STARS)](https://github.com/Continuum-AI-Corp/Orca-Code-Review/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Continuum-AI-Corp/Orca-Code-Review?style=flat-square&label=FORKS)](https://github.com/Continuum-AI-Corp/Orca-Code-Review/network/members)
+
+---
+
+## 03 / THE STACK
+
+```text
+                              CONTINUUM AI
+                                   │
+              ┌────────────────────┼────────────────────┐
+              │                    │                    │
+              ▼                    ▼                    ▼
+         ORCAROUTER            ORCACYBER            OPEN MODELS
+              │                    │                    │
+         AI GATEWAY            SECURITY              RESEARCH
+         ROUTING               DEFENSE               WEIGHTS
+         OBSERVABILITY         AGENTS                QUANTS
+         EVALS                 RESEARCH              RUNTIMES
+         GUARDRAILS            CODE SECURITY         POST-TRAINING
+              │                    │                    │
+              └────────────────────┼────────────────────┘
+                                   │
+                                   ▼
+                              OPEN SOURCE
+                                   │
+                    ┌──────────────┼──────────────┐
+                    ▼              ▼              ▼
+                  BUILD          VERIFY         EVOLVE
+```
+
+---
+
+## 04 / ORCAROUTER
+
+# One Gateway. Every Model.
+
+[**OrcaRouter**](https://www.orcarouter.ai) is Continuum AI's infrastructure layer for operating models and agents across providers.
+
+```text
+                     ┌─────────────────┐
+                     │   YOUR AGENT    │
+                     └────────┬────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │    ORCAROUTER     │
+                    │                   │
+                    │  ROUTE · OBSERVE  │
+                    │  SECURE · EVAL    │
+                    └─────────┬─────────┘
+                              │
+             ┌────────────────┼────────────────┐
+             │                │                │
+             ▼                ▼                ▼
+          MODEL A          MODEL B          MODEL N
+```
+
+`ADAPTIVE ROUTING` · `OBSERVABILITY` · `AGENT FIREWALL` · `GUARDRAILS` · `EVALS` · `BYOK` · `ZDR`
+
+### **[ENTER ORCAROUTER →](https://www.orcarouter.ai)**
+
+---
+
+## 05 / ORCACYBER
+
+# Intelligence for the Defense Layer.
+
+[**OrcaCyber**](https://www.orcacyber.ai) is our cybersecurity research and systems initiative for AI-native security.
+
+Our work spans:
+
+`VULNERABILITY RESEARCH`
+
+`AUTONOMOUS SECURITY AGENTS`
+
+`CODE SECURITY`
+
+`RED-TEAM RESEARCH`
+
+`DEFENSIVE AI`
+
+`SECURITY MODELS`
+
+`AGENT SECURITY`
+
+```text
+                  SOFTWARE + AI SYSTEMS
+                           │
+                           ▼
+                    ┌─────────────┐
+                    │  ORCACYBER  │
+                    └──────┬──────┘
+                           │
+              ┌────────────┼────────────┐
+              ▼            ▼            ▼
+           DISCOVER      ANALYZE       DEFEND
+              │            │            │
+              └────────────┼────────────┘
+                           ▼
+                         VERIFY
+```
+
+### **[ENTER ORCACYBER →](https://www.orcacyber.ai)**
+
+---
+
+## 06 / OPEN MODELS
+
+# Intelligence should be runnable.
+
+We publish open-weight models, post-training research, quantizations, runtimes, and experimental releases for developers and researchers.
+
+### Hugging Face
+
+Models · weights · quantizations · research releases
+
+**[huggingface.co/orcarouter →](https://huggingface.co/orcarouter/)**
+
+<br>
+
+### Ollama
+
+Run Orca models locally.
+
+**[ollama.com/orcarouter →](https://ollama.com/orcarouter)**
+
+---
+
+## 07 / RESEARCH DIRECTIONS
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### INTELLIGENCE INFRASTRUCTURE
+
+Routing  
+Inference  
+Model interoperability  
+Agent infrastructure  
+Gateway architecture  
+
+</td>
+<td width="50%" valign="top">
+
+### AI SECURITY
+
+Agent security  
+Vulnerability research  
+Code security  
+Guardrails  
+Defensive AI  
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### OBSERVABILITY
+
+Tracing  
+Recording  
+Replay  
+Reproducibility  
+Local ↔ Cloud  
+
+</td>
+<td width="50%" valign="top">
+
+### MODELS
+
+Post-training  
+Quantization  
+Behavioral intervention  
+Evaluation  
+Open weights  
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### ALIGNMENT
+
+Model behavior  
+Robustness  
+Control  
+Interpretability  
+Evaluation  
+
+</td>
+<td width="50%" valign="top">
+
+### AGENTS
+
+Tool use  
+Agent harnesses  
+Execution traces  
+Security boundaries  
+Autonomous systems  
+
+</td>
+</tr>
+</table>
+
+---
+
+## 08 / PRINCIPLES
+
+```text
+OPEN        > CLOSED
+MEASURE     > ASSUME
+REPRODUCE   > DEMO
+VERIFY      > TRUST
+SYSTEMS     > WRAPPERS
+EVOLVE      > FREEZE
+```
+
+We publish the systems, artifacts, experiments, models, and research behind our work whenever possible.
+
+---
+
+## 09 / BUILD WITH US
+
+The future of intelligence will be built across **models, agents, infrastructure, and security**.
+
+Come build it with us.
+
+### Community
+
+[**DISCORD →**](https://discord.com/invite/YEubt8enRA)
+
+### Infrastructure
+
+[**ORCAROUTER →**](https://www.orcarouter.ai)
+
+### Security
+
+[**ORCACYBER →**](https://www.orcacyber.ai)
+
+### Open Models
+
+[**HUGGING FACE →**](https://huggingface.co/orcarouter/)  
+[**OLLAMA →**](https://ollama.com/orcarouter)
+
+### Open Source
+
+[**GITHUB →**](https://github.com/Continuum-AI-Corp)
+
+---
+
+<div align="center">
+
+<br>
+
+# CONTINUUM AI
+
+### BUILDING INTELLIGENCE THAT EVOLVES.
+
+<br>
+
+[**continuum01.ai**](https://continuum01.ai)
+&nbsp;&nbsp;·&nbsp;&nbsp;
+[**orcarouter.ai**](https://www.orcarouter.ai)
+&nbsp;&nbsp;·&nbsp;&nbsp;
+[**orcacyber.ai**](https://www.orcacyber.ai)
+
+<br><br>
+
+`BUILD` → `ROUTE` → `OBSERVE` → `SECURE` → `VERIFY` → `EVOLVE`
+
+<br>
+
+</div>
