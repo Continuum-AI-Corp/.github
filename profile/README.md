@@ -9,6 +9,7 @@
 [**CONTINUUM**](https://continuum01.ai) ·
 [**ORCAROUTER**](https://www.orcarouter.ai) ·
 [**ORCACYBER**](https://www.orcacyber.ai) ·
+[**PAPERS ↓**](#07--research) ·
 [**HUGGING FACE**](https://huggingface.co/orcarouter) ·
 [**OLLAMA**](https://ollama.com/orcarouter) ·
 [**X**](https://x.com/OrcaRouter) ·
@@ -261,7 +262,74 @@ Run Orca models locally.
 
 ---
 
-## 07 / RESEARCH DIRECTIONS
+## 07 / RESEARCH
+
+# Research That Ships.
+
+We study the systems, architectures, and failure modes that emerge as AI moves from models into the real world.
+
+Our work spans **routing, alignment, security, robustness, agents, retrieval, and AI infrastructure** — with an emphasis on research that can be tested, reproduced, and turned into working systems.
+
+<br>
+
+### SELECTED RESEARCH
+
+<br>
+
+### OrcaRouter
+## A Production-Oriented LLM Router with Hybrid Offline-Online Learning
+
+**Zhenghua Bao · Fengya Tian · Chris Zhang · Zhenjun Chen · Xile Ma · Yi Shi**
+
+A production-oriented framework for intelligent model routing, combining contextual bandits with hybrid offline-online learning to continuously adapt routing decisions from real-world feedback.
+
+`MODEL ROUTING` · `CONTEXTUAL BANDITS` · `ONLINE LEARNING` · `AI INFRASTRUCTURE`
+
+**[READ PAPER →](https://arxiv.org/abs/2605.30736)**
+
+<br>
+
+---
+
+<br>
+
+### How Fragile Is Safety Alignment at Frontier Scale?
+## A Single-Direction Attack on a 320B MoE
+
+**Yi Shi · Tanyu Chen · Kai Shen**
+
+An empirical investigation into whether a remarkably simple white-box intervention can disrupt safety alignment at frontier scale — and what changes when alignment techniques designed for dense models encounter large mixture-of-experts architectures.
+
+`AI SAFETY` · `ALIGNMENT` · `MODEL SECURITY` · `MoE` · `INTERPRETABILITY`
+
+**[READ PAPER →](https://arxiv.org/abs/2609.09793)**
+
+<br>
+
+---
+
+<br>
+
+### Better Retrieval, Worse Robustness
+## How Multi-hop RAG Amplifies Upstream ASR Errors
+
+**Zhenghua Bao**
+
+Examines how errors propagate across speech recognition and retrieval-augmented generation pipelines, showing how increasingly capable multi-hop retrieval can amplify upstream entity errors rather than eliminate them.
+
+**EMNLP 2026 · Main Conference**
+
+`RAG` · `ROBUSTNESS` · `RETRIEVAL` · `SPEECH` · `MULTI-HOP REASONING`
+
+**[READ PAPER →](https://arxiv.org/abs/2608.22872)**
+
+<br>
+
+---
+
+<br>
+
+### RESEARCH DIRECTIONS
 
 <table>
 <tr>
@@ -269,10 +337,10 @@ Run Orca models locally.
 
 ### INTELLIGENCE INFRASTRUCTURE
 
-Routing  
-Inference  
+Model routing  
+Inference systems  
+Adaptive systems  
 Model interoperability  
-Agent infrastructure  
 Gateway architecture  
 
 </td>
@@ -280,10 +348,10 @@ Gateway architecture
 
 ### AI SECURITY
 
+Model security  
 Agent security  
 Vulnerability research  
-Code security  
-Guardrails  
+Adversarial evaluation  
 Defensive AI  
 
 </td>
@@ -292,13 +360,13 @@ Defensive AI
 <tr>
 <td width="50%" valign="top">
 
-### OBSERVABILITY
+### ALIGNMENT & ROBUSTNESS
 
-Tracing  
-Recording  
-Replay  
-Reproducibility  
-Local ↔ Cloud  
+Safety alignment  
+Behavioral interventions  
+Robustness  
+Interpretability  
+Failure analysis  
 
 </td>
 <td width="50%" valign="top">
@@ -307,9 +375,9 @@ Local ↔ Cloud
 
 Post-training  
 Quantization  
-Behavioral intervention  
-Evaluation  
-Open weights  
+Open-weight models  
+Model evaluation  
+Inference-time control  
 
 </td>
 </tr>
@@ -317,28 +385,60 @@ Open weights
 <tr>
 <td width="50%" valign="top">
 
-### ALIGNMENT
-
-Model behavior  
-Robustness  
-Control  
-Interpretability  
-Evaluation  
-
-</td>
-<td width="50%" valign="top">
-
-### AGENTS
+### AGENT SYSTEMS
 
 Tool use  
 Agent harnesses  
-Execution traces  
+Execution environments  
 Security boundaries  
 Autonomous systems  
 
 </td>
+<td width="50%" valign="top">
+
+### OBSERVABILITY & EVALUATION
+
+Tracing  
+Record & replay  
+Reproducibility  
+Counterfactual evaluation  
+Local ↔ Production  
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### RETRIEVAL & REASONING
+
+Retrieval-augmented generation  
+Multi-hop reasoning  
+Information retrieval  
+Error propagation  
+Context systems  
+
+</td>
+<td width="50%" valign="top">
+
+### OPEN RESEARCH
+
+Reproducible experiments  
+Open implementations  
+Research artifacts  
+Benchmarks  
+Open collaboration  
+
+</td>
 </tr>
 </table>
+
+<br>
+
+> **Research → Open Source → Production**
+
+We don't treat research as a separate layer from engineering.  
+When possible, our work becomes **code, models, datasets, evaluations, or production systems** that others can inspect, reproduce, and build on.
 
 ---
 
