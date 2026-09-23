@@ -136,6 +136,22 @@ MERGE GATE
 [![GitHub Stars](https://img.shields.io/github/stars/Continuum-AI-Corp/Orca-Code-Review?style=flat-square&label=STARS)](https://github.com/Continuum-AI-Corp/Orca-Code-Review/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/Continuum-AI-Corp/Orca-Code-Review?style=flat-square&label=FORKS)](https://github.com/Continuum-AI-Corp/Orca-Code-Review/network/members)
 
+<br>
+
+### Orca AI Incident Archive
+
+**A public record of when AI systems fail.**
+
+An open, structured archive of real-world AI incidents — outages, safety failures, model regressions, security events, policy failures, and other production issues.
+
+Built to make AI reliability easier to study over time across models, providers, and infrastructure.
+
+[**REPOSITORY →**](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive)
+
+[![GitHub Stars](https://img.shields.io/github/stars/Continuum-AI-Corp/Orca-AI-Incident-Archive?style=flat-square\&label=STARS)](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Continuum-AI-Corp/Orca-AI-Incident-Archive?style=flat-square\&label=FORKS)](https://github.com/Continuum)
+
+
 ---
 
 ## 03 / THE STACK
