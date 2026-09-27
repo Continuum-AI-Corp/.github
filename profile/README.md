@@ -151,6 +151,21 @@ Built to make AI reliability easier to study over time across models, providers,
 [![GitHub Stars](https://img.shields.io/github/stars/Continuum-AI-Corp/Orca-AI-Incident-Archive?style=flat-square\&label=STARS)](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/Continuum-AI-Corp/Orca-AI-Incident-Archive?style=flat-square\&label=FORKS)](https://github.com/Continuum)
 
+<br>
+
+### SCUTTLE
+
+**Write-only encryption for sensitive AI data.**
+
+An open-source hybrid post-quantum encryption layer for sensitive application logs and payloads — designed so normal writers can encrypt new data without holding the keys required to decrypt historical records.
+
+Built with **ML-KEM-768 + X25519** for hybrid key protection and **AES-256-GCM** for payload encryption, with explicit threat models, public attack targets, and a simple goal: steal the database, get ciphertext.
+
+[**REPOSITORY →**](https://github.com/Continuum-AI-Corp/scuttle)
+
+[![GitHub Stars](https://img.shields.io/github/stars/Continuum-AI-Corp/scuttle?style=flat-square&label=STARS)](https://github.com/Continuum-AI-Corp/scuttle/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Continuum-AI-Corp/scuttle?style=flat-square&label=FORKS)](https://github.com/Continuum-AI-Corp/scuttle/network/members)
+[![License](https://img.shields.io/github/license/Continuum-AI-Corp/scuttle?style=flat-square&label=LICENSE)](https://github.com/Continuum-AI-Corp/scuttle)
 
 ---
 
