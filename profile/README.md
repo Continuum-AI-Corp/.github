@@ -360,6 +360,25 @@ Examines how errors propagate across speech recognition and retrieval-augmented 
 
 <br>
 
+### IndexRAG
+## Bridging Facts for Cross-Document Reasoning at Index Time
+
+**Zhenghua Bao · Yi Shi**
+
+Moves cross-document reasoning from query time to index time by generating **bridging facts** that connect evidence across documents and remain directly retrievable through a flat vector store.
+
+On HotpotQA, 2WikiMultiHopQA, and MuSiQue, IndexRAG improves F1 over Naive RAG by **4.6 points on average**, while requiring only **single-pass retrieval and a single LLM call** at inference time.
+
+`RAG` · `INDEX-TIME REASONING` · `MULTI-HOP QA` · `INFORMATION RETRIEVAL` · `CROSS-DOCUMENT REASONING`
+
+**[READ PAPER →](https://arxiv.org/abs/2603.16415)**
+
+<br>
+
+---
+
+<br>
+
 ### RESEARCH DIRECTIONS
 
 <table>
