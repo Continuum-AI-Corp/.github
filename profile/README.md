@@ -201,7 +201,7 @@ Built with **ML-KEM-768 + X25519** for hybrid key protection and **AES-256-GCM**
 
 # One Gateway. Every Model.
 
-[**OrcaRouter**](https://www.orcarouter.ai) is Continuum AI's infrastructure layer for operating models and agents across providers.
+[**OrcaRouter**](https://www.orcarouter.ai) is Continuum AI’s privacy- and security-first infrastructure layer for operating models and agents across providers, clouds, and local environments.
 
 ```text
                      ┌─────────────────┐
