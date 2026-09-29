@@ -369,6 +369,8 @@ Moves cross-document reasoning from query time to index time by generating **bri
 
 On HotpotQA, 2WikiMultiHopQA, and MuSiQue, IndexRAG improves F1 over Naive RAG by **4.6 points on average**, while requiring only **single-pass retrieval and a single LLM call** at inference time.
 
+**AACL-IJCNLP 2026 Findings**
+
 `RAG` · `INDEX-TIME REASONING` · `MULTI-HOP QA` · `INFORMATION RETRIEVAL` · `CROSS-DOCUMENT REASONING`
 
 **[READ PAPER →](https://arxiv.org/abs/2603.16415)**
